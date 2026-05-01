@@ -86,9 +86,9 @@ Processed files moved to GCS (processed/)
 
 📊 Sample Output
 BigQuery tables:
-japan_raw_sales
-japan_stg_sales
-japan_fact_sales
+uk_raw_sales
+uk_stg_sales
+uk_fact_sales
 
 📌 Notes
 
