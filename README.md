@@ -19,6 +19,36 @@ BigQuery
 ↓
 Processed files moved to GCS (processed/)
 
+## 📸 Screenshots
+
+### Architecture
+
+![Architecture](images/architecture.png)
+
+### Flask Upload Portal
+
+![Flask Upload](images/flask_file_upload.png)
+
+### GCS Raw Folder
+
+![GCS Raw](images/raw_folder.png)
+
+### BigQuery Datasets
+
+![BigQuery Datasets](images/datasets.png)
+
+### Processed Tables
+
+![Processed Tables](images/processed_tables.png)
+
+### BigQuery Data Preview
+
+![Data Preview](images/processed_table_preview.png)
+
+### GCS Processed Folder
+
+![Processed Folder](images/processed_folder.png)
+
 ## ⚙️ Tech Stack
 
 - Python
@@ -62,4 +92,4 @@ japan_fact_sales
 
 📌 Notes
 
-The orchestration logic is designed following Airflow DAG principles, with task sequencing for ingestion, transformation, and post-processing.
+The pipeline is designed following Apache Airflow DAG principles and can be extended to production-grade orchestration using Airflow.
