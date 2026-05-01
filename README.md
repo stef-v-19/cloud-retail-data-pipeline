@@ -6,24 +6,23 @@ This project implements a cloud-based ETL pipeline that ingests retail sales dat
 
 ## 🏗️ Architecture
 
+
+![Architecture](images/architecture.png)
+
 User Upload (Flask)
-↓
+        ↓
 Google Cloud Storage (raw/)
-↓
+        ↓
 Python Orchestration Pipeline
-↓
+        ↓
 BigQuery
-├── retail_dataset (raw)
-├── retail_dataset_stg (cleaned)
-└── retail_dataset_processed (fact)
-↓
+   ├── retail_dataset (raw)
+   ├── retail_dataset_stg (cleaned)
+   └── retail_dataset_processed (fact)
+        ↓
 Processed files moved to GCS (processed/)
 
 ## 📸 Screenshots
-
-### Architecture
-
-![Architecture](images/architecture.png)
 
 ### Flask Upload Portal
 
