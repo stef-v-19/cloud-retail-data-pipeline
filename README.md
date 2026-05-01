@@ -22,6 +22,7 @@ BigQuery
    └── retail_dataset_processed (fact)
         ↓
 Processed files moved to GCS (processed/)
+```
 
 ## 📸 Screenshots
 
