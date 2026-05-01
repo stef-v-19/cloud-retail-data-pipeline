@@ -9,6 +9,7 @@ This project implements a cloud-based ETL pipeline that ingests retail sales dat
 
 ![Architecture](images/architecture.png)
 
+```text
 User Upload (Flask)
         ↓
 Google Cloud Storage (raw/)
